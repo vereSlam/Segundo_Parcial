@@ -1,0 +1,97 @@
+/*  ------------------------------------------------------------
+ -----------------ESTILO PARA 1024---------------------------
+ ------------------------------------------------------------ */
+ @media only screen and (max-width: 1024px){
+
+ }
+ /*  ------------------------------------------------------------
+  -----------------ESTILO PARA 900---------------------------
+  ------------------------------------------------------------ */
+   @media only screen and (max-width: 920px){
+     #cabecera{
+         flex-direction: column;
+     }
+     #logo{
+         width: 100%;
+     }
+     #logo img{
+        display: block;
+        margin: auto;
+     }
+     .dia-madre{
+        padding: 153px 0 0 0;
+    }
+ /* ---------------------------MEMU------------------------------------- */
+     .menu
+     {
+        position: absolute;
+        width: 100%; 
+        top: 100%;
+        left: 0;
+        transform: translateX(-100%);
+        transition: all 0.6s; 
+     }
+     #mmovil{
+         display: block;
+     }
+     .menu ul{
+         flex-direction: column;
+         background: #a53636;
+     }
+     .menu a{
+         line-height: 45px;
+         padding: 0 20px;
+         border-bottom: 1px solid #682815;
+         font-size: 20px;
+     }
+     .menu a i{
+        font-size: 20px;
+        padding: 0 5px;
+    }
+     #btn-menu:checked ~ .menu{
+         transform: translateX(0%);
+     }
+
+/* -------------------SECCIONES------------------------ */
+    h2{
+        font-size: 30px;
+    }
+    .tren{
+        width: 100%;
+        height: auto;
+        display: block;
+        max-width: 400px;
+        float: right;
+        padding: 698px 20px 0 0;
+    }
+    .ciudad{
+        width: 100%;
+        height: auto;
+        display: block;
+        max-height: 3000px;
+        float: right;
+        padding: 670px 20px 0 0;
+    }
+
+/* ---------------PIE DE PAGINA----------------------- */
+
+    #piepagina p{
+        font-size: 10px;
+    }
+    #piepagina ul li a{
+        font-size: 10px;
+    }
+    
+  }
+  /*  ------------------------------------------------------------
+  -----------------ESTILO PARA 603---------------------------
+  ------------------------------------------------------------ */
+ @media only screen and (max-width: 603px){
+ 
+ }
+ /*  ------------------------------------------------------------
+  -----------------ESTILO PARA 533---------------------------
+  ------------------------------------------------------------ */
+  @media only screen and (max-width: 533px){
+ 
+  }

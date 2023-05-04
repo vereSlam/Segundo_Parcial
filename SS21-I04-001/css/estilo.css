@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background: white;
+}
+*{
+    box-sizing: border-box;
+}
+p, h1, h2,h3, h4{
+    color: white;
+    margin: 6px;
+}
+h1{font-size: 24px;}
+h2{font-size: 20px;}
+h3{font-size: 18px;}
+h4{font-size: 16px;}
+p{font-size: 14px;}
+a{
+    text-decoration: none;
+}
+a img{
+    /*height: 70px; */
+    padding: 0 10px;
+    border: none;
+}
+ul, ol{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #555555;
+}
+#scrollUp{
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    /* background-image: ; */
+}
+#cajacabecera{
+    width: 100%;
+}
+.dia-madre{
+    width: 100%;
+    padding: 110px 0 0 0;
+}
+#cabecera{
+    width: 100%;
+    max-height: 1100px;
+    display: flex;
+    margin: auto;
+    background: linear-gradient( to left, #d80505, #000000);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+#logo{
+    width: 20%;
+    padding: 6px 0;
+}
+/* -------------------MENU------------------------ */
+
+.menu{
+    width: 80%;
+}
+#btn-menu{
+    display: none;
+}
+#mmovil{
+    font-size: 30px;
+    cursor: pointer;
+    text-align: left;
+    color: white;
+    display: none;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 90px;
+    padding: 0 30px;
+    color: white;
+    font-size: 45px;
+}
+.menu a i{
+    font-size: 40px;
+    padding: 0 9px;
+}
+.menu a:hover{
+    color: #fff;
+    border-bottom: 2px solid #f2f2f2;
+    background-color: #000000;
+}
+
+/* -------------------SECCIONES------------------------ */
+.seccion{
+    width: 100%;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-family: 'sigmar';
+    margin-top: 100px;
+    font-size: 60px;
+    background: linear-gradient(to left,  #ee2a2a, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.inicio{
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+    background-color: #c5c3c3;
+  
+}
+.calendario{
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+}
+.articulos{
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+    background-color: #c5c3c3;
+    
+}
+.mas{
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+}
+.tren{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 650px;
+    float: right;
+    padding: 624px 20px 0 0;
+}
+.ciudad{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 3000px;
+    float: right;
+    padding: 480px 20px 0 0;
+}
+
+/* ---------------PIE DE PAGINA----------------------- */
+#piepagina{
+    background: #d80505;
+    padding: 2% 0;
+}
+.cajapie{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+}
+#piepagina p{
+    text-align: left;
+    color: #ffffff;
+    font-size: 30px;
+}
+#piepagina ul{
+    width: 160px;
+    margin: 0 auto;
+    padding: 0 0 0 100px;
+    display: flex;
+    list-style: none;
+}
+#piepagina ul li{
+    padding: 0 14px;
+}
+#piepagina ul li a{
+    width: 4opx;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    color: #ebb548;
+    text-align: right;
+    font-size: 35px;
+}
